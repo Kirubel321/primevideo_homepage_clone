@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-img{
+    background-image: url(asset/bg.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.navbar-bg{
+    background-color: #192231 ;
+    height:70px;
+   
+}
+@media only screen and (max-width: 575.98px){ 
+    .navbar-bg{
+        height: 57px;
+    }
+    .hero-img{
+        margin-top: 57px;
+    }
+    
+}
+.footer-bg{
+    background-color: #212224 ;
+}
+.text-color{
+ color: #256192 ;
+}
+
+.divider {
+  display: inline-block;
+  border-bottom: white 1px solid;
+  max-width: 135px;
+  right:0;
+}
+.hero-btn{
+    background-color: #0d6394;
+    width: 280px;
+    height: 60px;
+}
+.hero-btn:hover{
+    background-color: #0d6394;   
+}
